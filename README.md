@@ -1,2 +1,1 @@
-# Flapp
-simple app on flask
+Simple app on flask
