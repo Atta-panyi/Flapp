@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/user/<user_name>')
 def show_user_profile(username):
-    name = request.args.get(username)
+
     return f'user, {escape (username)}'
 
 if __name__ == '__main__':
