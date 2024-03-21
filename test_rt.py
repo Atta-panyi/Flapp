@@ -10,7 +10,7 @@ app = Flask(__name__)
 def show_user_profile(username):
 
     return f'user, {escape (username)}'
-
+    
 if __name__ == '__main__':
     app.run(debug=True)
 
